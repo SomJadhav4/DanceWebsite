@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round&family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    color: rebeccapurple;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 41px;
+}
+
+#logo img {
+    height: 65px;
+}
+
+#navbar {
+    background-color: aliceblue;
+    padding: 5px 5px;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a {
+    color: rebeccapurple;
+    text-decoration: none;
+    padding: 11px 37px;
+    font-size: 1.3rem;
+
+}
+
+#navbar li a:hover {
+    color: rgb(123, 86, 160);
+
+}
+
+#introSection {
+    padding-bottom: 218px;
+    color: whitesmoke;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 53px;
+    background: url("/static/bg.jpg") center / cover no-repeat;
+    height: 600px;
+    background-color: rebeccapurple;
+
+}
+
+#introSection div.small {
+    padding: 5px;
+    font-size: 33px;
+    color: rgb(43 21 43);
+}
+
+#missionSection {
+    height: 450px;
+    background-color: rgb(91, 60, 214);
+    background: url("/static/mission.jpg") center / cover no-repeat;
+
+
+}
+
+#missionSection h3 {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 23px;
+    font-size: 33px;
+
+
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px;
+    height: 220px;
+    margin-top: 55px;
+    background-color: #65536e38;
+    color: hsl(282deg 100% 90% / 98%);
+
+
+}
+
+.card h4 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 23px;
+    margin: 23px;
+    text-align: center;
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img {
+    margin: -16px 4px;
+    height: 128px;
+    padding: 0 11px;
+}
+
+.card-img img {
+    height: inherit;
+
+}
+
+.card-content p {
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+
+}
+
+
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(122, 3, 240);
+
+}
+
+#sponsorSection h3 {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 23px;
+    font-size: 33px;
+
+
+}
+
+#sponsors {
+    height: 85px;
+    max-width: 1000px;
+    margin: 2px auto;
+    
+
+}
+
+.spImmage {
+    height: 100%;
+    margin: 57px 84px;
+
+}
+
+#footer {
+   
+    background-color: black;
+    height: 65px;
+    
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Fredoka One', cursive;
+
+}

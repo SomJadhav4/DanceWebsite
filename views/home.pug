@@ -1,0 +1,58 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+
+
+
+    section#introSection
+        div Welcome To Som's Dance Academy
+        div.small Just take a step with us
+
+    section#missionSection
+        h3 Our Mission 
+        div.card
+            h4 Dance With Us
+            div.card-box 
+                div.card-img 
+                    img(src = "/static/img/q1.png" )
+                div.card-content 
+                    p This is the best dance academy in the universe
+        div.card
+            h4 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src = "/static/img/q3.png" )
+                div.card-content 
+                    p This is the best dance academy in the universe
+           
+             
+        div.card
+            h4 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src = "/static/img/q2.png" )
+                div.card-content 
+                    p This is the best dance academy in the universe
+            
+             
+           
+    section#sponsorSection
+        h3 Sponsored By
+        div#sponsors 
+            img(src="/static/img/apple.png", alt="Sponsors Image" Class ="spImmage")
+            img(src="/static/img/intsa.png", alt="Sponsors Image" Class ="spImmage")
+            img(src="/static/img/tweet.png", alt="Sponsors Image" Class ="spImmage")
+            img(src="/static/img/pin.png", alt="Sponsors Image" Class ="spImmage")
+
+
+
+   
+
+

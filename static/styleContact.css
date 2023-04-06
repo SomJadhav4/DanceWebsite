@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round&family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 573px;
+    
+    
+    
+
+}
+.container h1{
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 47px;
+    
+
+}
+h1{
+    margin: 34px 34px;
+    text-align: center;
+}
+
+.myForm{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    border-radius: 5px;
+    color: black;
+    border: 2px solid mediumpurple;
+    font-size: 15px;
+    padding: 10px;
+    width: 45%;
+    margin: 8px;
+    outline: none;
+    
+
+}
+.btn{
+    border: 2px solid rgb(88, 46, 130);
+    background-color: #d9c1f1;
+    border-radius: 5px ;
+    /* background: mediumspringgreen; */
+    padding: 7px 29px;
+    font-size: 19px;
+    outline: none;
+    cursor: pointer;
+    color: rebeccapurple;
+
+    
+}
+
+.btn:hover{
+    background-color:rgb(78, 47, 109);
+    color: #d9c1f1;
+
+}
+ 
